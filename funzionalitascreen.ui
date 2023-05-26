@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogFunzionalita</class>
+ <widget class="QDialog" name="DialogFunzionalita">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1225</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#DialogFunzionalita{
+background-color:qlineargradient(spread:pad, x1:0.058, y1:0.136364, x2:1, y2:1, stop:0 rgba(0, 255, 127, 255), stop:1 rgba(255, 255, 255, 255));}</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>240</y>
+     <width>901</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 36pt &quot;MS Shell Dlg 2&quot;;color:rgb(255, 255, 255);
+font-weight:bold;
+
+</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;MENU DELLE FUNZIONALITA'&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="tamponiButton">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>410</y>
+     <width>381</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:20px;
+border :2px solid ;
+font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+font-weight:bold;
+background-color: rgb(255, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>  TAMPONI</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>img/covid.png</normaloff>img/covid.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>60</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="magazzinoButton">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>410</y>
+     <width>381</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:20px;
+border :2px solid ;
+font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+font-weight:bold;
+background-color: rgb(255, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string> MAGAZZINO</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>img/magazzino.png</normaloff>img/magazzino.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>60</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cassaButton">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>550</y>
+     <width>381</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:20px;
+border :2px solid ;
+font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+font-weight:bold;
+background-color: rgb(255, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string> CASSA</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>img/cassa.png</normaloff>img/cassa.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="archiviButton">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>550</y>
+     <width>381</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:20px;
+border :2px solid ;
+font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+font-weight:bold;
+background-color: rgb(255, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string> ARCHIVI</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>img/archivio.png</normaloff>img/archivio.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>45</width>
+     <height>45</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1271</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/farmaciaa.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>tamponiButton</zorder>
+  <zorder>magazzinoButton</zorder>
+  <zorder>cassaButton</zorder>
+  <zorder>archiviButton</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
