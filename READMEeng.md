@@ -1,4 +1,4 @@
-# *pharmacy management*
+# *Pharmacy management*
 ![N|Solid](https://www.boomerangcard.it/it/uploads/esercente/54/logo.png "")
 
 The project aims to model a computer system for the management of a pharmacy. The modeling hypothesis to which the project will adhere will be that of a rural pharmacy, whose staff is composed solely of the Managing Director, responsible for the sale of drugs and the execution of swabs.
@@ -10,7 +10,7 @@ The system will provide the Administrator with access to functionality that allo
 - Archives Management
 - Management of the buffer area (reservation and execution )
 
-# installation
+# Installation
 The software was developed in Python with the help of PyCharm.
 
 ![Build Status](https://i.stack.imgur.com/wJqaA.png "")
@@ -27,22 +27,22 @@ To install the project on PyCharm:
 - In the Directory field, enter the folder path where your local Git repository will be created.
 - Click Clona.
 
-# features
-## pharmacy management - login
+# Features
+## Pharmacy management - LOGIN
 &#13;&#10;  ![](https://github.com/MarcoSpina01/Farmacia/blob/main/immagini_readme/immagini_readme/login.png "")
 
-CREDENZIALI: user name: username password: password
+LOG-IN INFORMATION: user name: username password: password
 
 The screen`Login`allows all'Amministratore to access the menu. In case of problems, the possibility of contacting assistance is guaranteed.
-## pharmacy management - functionality
+## Pharmacy management - FUNCTIONALITY
 &#13;&#10;  ![](https://github.com/MarcoSpina01/Farmacia/blob/main/immagini_readme/immagini_readme/funzionalita.png "")
 
 After login you access to the`menu delle funzionalità`through which you can select which screen to access and which operations to perform.
-## pharmacy management - swabs
+## Pharmacy management - SWABS
 &#13;&#10;  ![](https://github.com/MarcoSpina01/Farmacia/blob/main/immagini_readme/immagini_readme/calendario.png "")
   ![](https://github.com/MarcoSpina01/Farmacia/blob/main/immagini_readme/immagini_readme/moduloregistrazione.png "")
 
-La`Gestione Tamponi`allows:
+`Gestione Tamponi` allows:
 
 - Display appointments: clicking on the date of the appointment on the calendar in the table will appear the related information. Alternatively you can filter through Search by getting or only the completed appointments (i.e. with outcome) or only those not completed (i.e. without outcome).
 - Add a new appointment: click New Appointment will open a form to fill through which, after pressing Register, the appointment will be created and added to the calendars. To view the new addition you will need to click on the calendar date or filter for "Not Covered".
@@ -50,7 +50,7 @@ La`Gestione Tamponi`allows:
 - **Delete an appointment: by selecting the appointment it is possible to proceed with its elimination.**
 - Display statische: pressing the button displays statistics outcomes you can see the percentage of positive and negative swabs
 
-## pharmacy management - warehouse menu
+## Pharmacy management - WAREHOUSE MENU
 &#13;&#10;  ![](https://github.com/MarcoSpina01/Farmacia/blob/main/immagini_readme/immagini_readme/magazzino.png "")
 
 The`menu Magazzino`allows:
@@ -58,21 +58,21 @@ The`menu Magazzino`allows:
 - View warehouse: clicking View warehouse you enter the warehouse.
 - Place Order: by clicking Order you can access the menu of the choice of suppliers.
 
-### pharmacy management - warehouse menu - warehouse display
+### Pharmacy management - WAREHOUSE MENU - WAREHOUSE DISPLAY
 &#13;&#10;  ![](https://github.com/MarcoSpina01/Farmacia/blob/main/immagini_readme/immagini_readme/visualmagazzino.png "")
 
-La`Gestione Magazzino`allows:
+`Gestione Magazzino` allows:
 
 - **Search for a product: by writing in the search bar you can search for products.**
 
-### pharmacy management - warehouse menu - selection of suppliers
+### pharmacy management - WAREHOUSE MENU  - SELECTION OF SUPPLIERS
 &#13;&#10;  ![](https://github.com/MarcoSpina01/Farmacia/blob/main/immagini_readme/immagini_readme/fornitori.png "")
 
 The`menu di selezione fornitori`allows you to select the supplier for the order.
-### pharmacy management - warehouse menu - place order
+### Pharmacy management - WAREHOUSE MENU  - PALCE ORDER
 &#13;&#10;  ![](https://github.com/MarcoSpina01/Farmacia/blob/main/immagini_readme/immagini_readme/pfizer.png "")
 
-The section`Effettua Ordine`allows:
+The section `Effettua Ordine` allows:
 
 - **View the product list**
 - **Search for products**
@@ -80,7 +80,7 @@ The section`Effettua Ordine`allows:
 - **Add a product to your cart**
 - **Buy products**
 
-### pharmacy management - cash
+### Pharmacy management - CASH
 &#13;&#10;  ![](https://github.com/MarcoSpina01/Farmacia/blob/main/immagini_readme/immagini_readme/cassa.png "")
 
 The section`Cassa`allows:
@@ -91,17 +91,17 @@ The section`Cassa`allows:
 - **Add a product to your cart**
 - **Buy products**
 
-## pharmacy management - archives
+## Pharmacy management - ARCHIVES
 &#13;&#10;  ![](https://github.com/MarcoSpina01/Farmacia/blob/main/immagini_readme/immagini_readme/archivi.png "")
 
-La`Gestione Archivi`allows:
+`Gestione Archivi`allows:
 
 - **View Archives: you can view customers, swab results, orders made and sales made.**
 - **Search: by writing in the search bar corresponding to the archive of interest you can search .**
 
-# authors
+# AUTHORS
 
-- Marco Spina -[⁇ MarcoSpina01](https://github.com/MarcoSpina01 "")
-- Michelangelo Marconi -[⁇ MikiMarconi](https://github.com/MikiMarconi "")
-- Ezekias Wasingya Mastaki -[⁇ Ezekias01](https://github.com/Ezekias01 "")
+- Marco Spina -[@MarcoSpina01](https://github.com/MarcoSpina01 "")
+- Michelangelo Marconi -[@MikiMarconi](https://github.com/MikiMarconi "")
+- Ezekias Wasingya Mastaki -[@Ezekias01](https://github.com/Ezekias01 "")
 
