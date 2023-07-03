@@ -1,5 +1,5 @@
 # *Pharmacy management*
-![N|Solid](https://www.boomerangcard.it/it/uploads/esercente/54/logo.png "")
+![N|Solid](https://github.com/Ezekias01/DrugStore/blob/master/immagini_readme/copertina_progettoingsoft.png)
 
 The project aims to model a computer system for the management of a pharmacy. The modeling hypothesis to which the project will adhere will be that of a rural pharmacy, whose staff is composed solely of the Managing Director, responsible for the sale of drugs and the execution of swabs.
 
